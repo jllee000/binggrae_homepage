@@ -1,0 +1,28 @@
+.toast-default {
+  padding: 0 2rem;
+  color: #fff;
+  text-align: center;
+  font-family: 'Pretendard';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2rem; /* 133.333% */
+  margin-top: 0.5rem;
+}
+
+/* toastify-custom.css */
+@media only screen and (max-width: 480px) {
+  .Toastify__toast-container {
+    bottom: var(--toastify-toast-bottom);
+    left: 50%;
+    transform: translateX(-50%);
+    width: var(--toastify-toast-width);
+  }
+
+  .Toastify__toast {
+    border-radius: var(--toastify-toast-bd-radius);
+  }
+
+  .Toastify__toast-container--bottom-center {
+    transform: translateX(-50%);
+  }
+}

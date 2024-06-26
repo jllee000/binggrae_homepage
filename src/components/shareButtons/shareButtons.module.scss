@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  gap: 1rem;
+
+  .share-btn {
+    display: flex;
+    padding: 0.625rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.125rem;
+    font-family: 'Pretendard';
+
+    &:active {
+      opacity: 0.6;
+    }
+
+    p {
+      color: white;
+      text-align: center;
+      font-weight: 700;
+      line-height: 2.25rem;
+    }
+  }
+
+  &.oval {
+    gap: 1rem;
+
+    .share-btn {
+      width: 11.25rem;
+      height: 4rem;
+      flex-direction: row;
+      font-size: 1.25rem;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 53.43%, rgba(255, 255, 255, 0.15) 100%),
+        rgba(255, 255, 255, 0.06);
+      box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
+
+      img {
+        width: 2.5rem;
+        height: auto;
+      }
+    }
+  }
+
+  &.square {
+    gap: 1.5rem;
+
+    .share-btn {
+      width: 8.75rem;
+      height: 7.5rem;
+      flex-direction: column;
+      font-size: 1.5rem;
+      border-radius: 1rem;
+      border: 1.5px solid transparent;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 26.09%, rgba(255, 255, 255, 0.2) 100%);
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+
+      img {
+        width: 3rem;
+        height: auto;
+      }
+    }
+  }
+}

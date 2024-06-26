@@ -1,0 +1,31 @@
+.next-button {
+  width: 27.5rem;
+  height: 4.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0 0 0.875rem rgba(227, 182, 255, 0.5)) drop-shadow(0 0 0.938rem rgba(184, 0, 143, 0.8));
+  will-change: filter;
+  transform: translateZ(0);
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.find-totem-button {
+  width: 27.5rem;
+  height: 4.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0 0 0.875rem rgba(227, 182, 255, 0.5)) drop-shadow(0 0 0.938rem rgba(184, 0, 143, 0.8));
+  will-change: filter;
+  transform: translateZ(0);
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

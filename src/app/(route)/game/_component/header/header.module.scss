@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  min-height: 4rem;
+  padding: 0 1.25rem;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12.5px);
+
+  .arrow-back {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .logo {
+    position: relative;
+    left: 1.75rem;
+    width: 10.625rem;
+    height: 2rem;
+  }
+
+  .right-area {
+    display: flex;
+    gap: 0.5rem;
+
+    img {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+
+    button {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+}

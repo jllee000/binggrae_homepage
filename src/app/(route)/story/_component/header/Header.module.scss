@@ -1,0 +1,28 @@
+.header-container {
+  width: 31.25rem;
+  height: 4rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(12.5px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 1rem;
+}
+
+.arrow-back {
+  width: 2.5rem;
+  height: auto;
+}
+
+.logo {
+  width: 10.625rem;
+  height: auto;
+}
+
+.home {
+  width: 2.5rem;
+  height: auto;
+}

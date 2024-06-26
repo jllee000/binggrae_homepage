@@ -1,0 +1,117 @@
+.dim {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  background-color: #2c0a3996;
+  width: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: pre-wrap;
+
+  .modal {
+    width: 27.5rem;
+    height: auto;
+    border-radius: 1rem;
+    background-color: #ffe8f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 700;
+    padding: 2rem 0;
+    text-align: center;
+
+    img {
+      width: 2.75rem;
+      height: auto;
+    }
+
+    .character {
+      width: 10rem;
+      height: auto;
+    }
+
+    .text {
+      font-size: 1.5rem;
+      line-height: 2.063rem;
+      color: #592539;
+    }
+
+    .text_content {
+      width: 22.5rem;
+      height: 20.063rem;
+      overflow-y: scroll;
+      word-break: keep-all;
+      font-size: 1.375rem;
+      line-height: 2.063rem;
+      color: #592539;
+      text-align: start;
+
+      .title {
+        font-weight: bold;
+      }
+
+      .content {
+        margin: 1rem 0;
+        font-weight: 400;
+
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .content {
+      .text {
+        color: #592539;
+        text-align: center;
+        font-family: Pretendard;
+        font-size: 1.375rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2.0625rem;
+
+        h2 {
+          font-size: 2rem;
+          line-height: 2.625rem;
+          font-weight: 700;
+          margin-bottom: 0.25rem;
+        }
+      }
+    }
+
+    .text_content::-webkit-scrollbar {
+      display: flex;
+      width: 0.3rem;
+    }
+
+    .text_content::-webkit-scrollbar-track {
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 1rem;
+    }
+
+    .text_content::-webkit-scrollbar-thumb {
+      background-color: #a45170;
+      border-radius: 1rem;
+      height: 5rem;
+    }
+
+    .btn {
+      width: 19.5rem;
+      height: 4.063rem;
+      background-color: #a45170;
+      border-radius: 0.75rem;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+  }
+}

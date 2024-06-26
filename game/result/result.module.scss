@@ -1,0 +1,12 @@
+.wrap {
+  height: 100%;
+  overflow: auto;
+  width: 500px;
+  max-width: 500px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

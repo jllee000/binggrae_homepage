@@ -1,0 +1,70 @@
+$key-width: 2.75rem;
+// $wide-key-width: 4.5rem;
+$key-height: 3.375rem;
+$key-font-size: 1.25rem;
+
+.container {
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  max-width: 500px;
+  background-color: #39142b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Pretendard';
+  gap: 0.625rem;
+  padding: 0.8rem 0 1.6rem;
+  box-shadow: 0px 0rem 3rem 0 rgb(0 0 0 / 80%);
+
+  .special,
+  .top,
+  .middle,
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: $key-font-size;
+
+    .key {
+      width: $key-width;
+      height: $key-height;
+      color: white;
+      border-radius: 0.3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #9e4867;
+      &:active {
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+.erase {
+  width: 5.8125rem;
+  height: $key-height;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  background-color: #c26a8a;
+  border-radius: 0.3rem;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.875rem;
+  height: $key-height;
+  border-radius: 0.3rem;
+  background-color: white;
+  font-weight: 700;
+  color: #9e4867;
+  margin-left: 2.7rem;
+}

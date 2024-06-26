@@ -1,0 +1,147 @@
+.apply-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+
+  .name {
+    width: 100%;
+    height: 3.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #ffffff2f;
+    padding: 0 0.7rem;
+    border-radius: 0.625rem;
+    border: 1px solid #dcd1d5;
+    color: white;
+
+    input {
+      width: 90%;
+      height: 3rem;
+      font-size: 1.25rem;
+      font-family: 'Pretendard';
+      outline: none;
+      border: none;
+      text-align: center;
+      background-color: transparent;
+      color: white;
+    }
+
+    input::placeholder {
+      color: #ffffff80;
+    }
+
+    .left {
+      width: 0.938rem;
+      height: auto;
+    }
+
+    .right {
+      rotate: 180deg;
+      width: 0.938rem;
+      height: auto;
+    }
+  }
+
+  .phone-number {
+    width: 100%;
+    height: 3.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #ffffff2f;
+    padding: 0 0.7rem;
+    border-radius: 0.625rem;
+    border: 1px solid #dcd1d5;
+    color: white;
+
+    input {
+      width: 90%;
+      height: 3rem;
+      font-size: 1.25rem;
+      font-family: 'Pretendard';
+      outline: none;
+      border: none;
+      text-align: center;
+      background-color: transparent;
+      color: white;
+    }
+
+    input::placeholder {
+      color: #ffffff80;
+    }
+
+    .left {
+      width: 0.938rem;
+      height: auto;
+    }
+
+    .right {
+      rotate: 180deg;
+      width: 0.938rem;
+      height: auto;
+    }
+  }
+
+  .info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin: 0.5rem 0 1.5rem 0;
+
+    .info-checkbox {
+      font-size: 1.125rem;
+      color: #dcd1d5;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: pointer;
+
+      .check-box {
+        width: 1.5rem;
+        height: 1.5rem;
+        border: 1px solid #ffffff32;
+        background-color: #ffffff14;
+        border-radius: 0.25rem;
+
+        img {
+          width: 100%;
+          visibility: hidden;
+        }
+
+        &.checked {
+          img {
+            visibility: visible;
+          }
+        }
+      }
+    }
+
+    .detail {
+      border: 1px solid #dcd1d5;
+      border-radius: 0.25rem;
+      padding: 0.2rem 0.5rem;
+      color: #dcd1d5;
+      cursor: pointer;
+    }
+  }
+
+  .apply-message {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    color: white;
+    gap: 1rem;
+    line-height: 1.25rem;
+    margin: 0 0 0.5rem;
+
+    .starThree {
+      width: 0.625rem;
+      height: auto;
+    }
+  }
+}

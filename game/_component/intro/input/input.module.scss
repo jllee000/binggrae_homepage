@@ -1,0 +1,39 @@
+.sub-input {
+  display: flex;
+  align-items: center;
+  width: 25rem;
+  height: 5.31rem;
+  margin: 0 auto 0.5rem;
+  padding: 0 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: rgba(28, 3, 47, 0.7);
+
+  input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    text-align: center;
+    font-family: 'Pretendard';
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem; /* 166.667% */
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:focus {
+    transition:
+      background-color 600000s 0s,
+      color 600000s 0s;
+  }
+  input[data-autocompleted] {
+    background-color: transparent !important;
+  }
+}

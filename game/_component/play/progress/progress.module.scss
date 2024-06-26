@@ -1,0 +1,69 @@
+$circular-progress-size: 6rem;
+
+.gauge-wrap {
+  width: 100%;
+  height: 1rem;
+  position: relative;
+  border-radius: 999px;
+  border: 2px solid #fff;
+  overflow: hidden;
+
+  .gauge-container {
+    position: absolute;
+    height: 1rem;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, #fff 100%);
+    opacity: 0.8;
+  }
+
+  .gauge {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+
+    .gauge-inner {
+      z-index: 99999;
+      position: absolute;
+      top: 0.1rem;
+      height: 0.28rem;
+      background-color: rgba(255, 255, 255, 1);
+      opacity: 0.2;
+      border-radius: 999px;
+    }
+
+    .gauge-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(112deg, rgba(219, 9, 84, 0) 32.81%, rgba(245, 30, 133, 0.5) 70.59%), #ef99f6;
+      transition: transform 1s ease;
+    }
+  }
+}
+
+.container {
+  position: relative;
+  top: -0.7rem;
+
+  .progress {
+    fill: none;
+    transition: stroke-dashoffset 0.35s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+  }
+  .progress-content {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.75);
+    font-family: 'Pretendard';
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

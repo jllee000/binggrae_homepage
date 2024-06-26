@@ -1,0 +1,56 @@
+.container {
+  width: 23.75rem !important;
+  height: 8.5rem;
+  border-radius: 0.625rem;
+  border: 1px solid #ffb9d6;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 53.43%, rgba(255, 255, 255, 0.15) 100%),
+    rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0.5rem 0.75rem 0 rgba(0, 0, 0, 0.15);
+  color: #e2cdd5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'Pretendard';
+  margin: 1rem 0;
+
+  .enter {
+    width: 19rem;
+    display: flex;
+    align-items: center;
+
+    .enter-text {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.188rem;
+      gap: 0.5rem;
+
+      span {
+        font-size: 1.75rem;
+        color: white;
+      }
+    }
+  }
+
+  .fail {
+    width: 19rem;
+    display: flex;
+    align-items: center;
+
+    .fail-text {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.188rem;
+
+      span {
+        font-size: 1.75rem;
+        color: white;
+      }
+    }
+  }
+}
